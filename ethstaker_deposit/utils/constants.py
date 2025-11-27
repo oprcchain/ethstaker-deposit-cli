@@ -17,7 +17,7 @@ COMPOUNDING_WITHDRAWAL_PREFIX = bytes.fromhex('02')
 
 ETH2GWEI = 10 ** 9
 DEFAULT_ACTIVATION_AMOUNT = 2 ** 5
-MAX_DEPOSIT_AMOUNT = 2 ** 22 * ETH2GWEI
+MAX_DEPOSIT_AMOUNT = 2 ** 24 * ETH2GWEI
 
 # File/folder constants
 WORD_LISTS_PATH = os.path.join('ethstaker_deposit', 'key_handling', 'key_derivation', 'word_lists')
